@@ -71,7 +71,7 @@ Universidad Externado de Colombia
 Estudiante de Economía  
 Universidad Externado de Colombia
 
-### Valery Nayuni
+### Valery Nayuni Ccaulla
 
 Estudiante de Economía  
 Universidad Externado de Colombia
