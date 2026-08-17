@@ -71,7 +71,7 @@ Universidad Externado de Colombia
 Estudiante de Economía  
 Universidad Externado de Colombia
 
-### Yeison Nicolas Orduña
+### Nicolas Orduña
 
 Estudiante de Economía  
 Universidad Externado de Colombia
