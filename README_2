@@ -1,0 +1,236 @@
+# 📊 Proyecto IA — Séptimo Semestre
+
+# Brechas de Desempeño en las Pruebas Saber 11 (2020-2) entre Zonas Rurales y Urbanas de Colombia: Identificación de Factores Explicativos mediante Aprendizaje Automático
+
+**Universidad Externado de Colombia**  
+**Facultad de Economía**  
+**Inteligencia Artificial con Aplicaciones en Economía I**
+
+---
+
+## 🎯 1. Objetivo
+
+El objetivo general es desarrollar un modelo de aprendizaje automático que permita identificar y cuantificar las variables que explican las diferencias de rendimiento académico entre estudiantes de zonas rurales y urbanas que presentaron las pruebas Saber 11 en el período **2020-2**.
+
+El propósito es generar evidencia útil para contribuir al diseño de políticas educativas orientadas a reducir la brecha entre las zonas rural y urbana.
+
+### Objetivos específicos
+
+1. Cuantificar la brecha bruta rural-urbana en el puntaje global y en cada una de las cinco áreas evaluadas.
+2. Estimar modelos predictivos del puntaje global a partir de variables de contexto del estudiante, el hogar, el colegio y el territorio.
+3. Descomponer la brecha para medir cuánto de ella se asocia con cada grupo de factores y cuánto persiste después de controlarlos.
+4. Identificar los perfiles y territorios con mayor riesgo de bajo desempeño, con el propósito de orientar la focalización.
+
+---
+
+## 🔎 2. Descripción
+
+El Icfes evalúa anualmente a los estudiantes de educación media en Colombia mediante las pruebas Saber 11. Estas pruebas reportan resultados en **Lectura Crítica, Matemáticas, Ciencias Naturales, Sociales y Ciudadanas e Inglés**, además de un puntaje global. Los microdatos incluyen la zona del colegio, rural o urbana, lo que permite analizar comparativamente el desempeño en ambos contextos.
+
+Las diferencias de desempeño entre zonas rurales y urbanas suelen atribuirse de forma general a la ruralidad. Sin embargo, existen otros factores que pueden estar relacionados con esta diferencia, como la naturaleza del establecimiento —oficial o no oficial—, la jornada, el nivel educativo de los padres, el estrato socioeconómico y el acceso a conectividad.
+
+Este proyecto busca ir más allá de la comparación descriptiva de promedios. A partir de las variables de contexto disponibles en los microdatos del Icfes, se construyen modelos de aprendizaje automático para predecir el desempeño de los estudiantes y cuantificar la importancia relativa de diferentes variables en la brecha observada entre las zonas.
+
+De esta manera, el proyecto no solo documenta las diferencias de desempeño entre ambos grupos, sino que aporta evidencia sobre los factores asociados a dicha brecha, información que puede contribuir a la focalización de recursos y estrategias de intervención en instituciones educativas rurales.
+
+### 📌 Contexto del período analizado
+
+El período **2020-2** corresponde a la aplicación de noviembre de 2020, después de varios meses de educación remota debido a la pandemia. Por esta razón, los resultados de este período reflejan también condiciones particulares de acceso a la educación a distancia, haciendo especialmente relevante el análisis de las variables relacionadas con conectividad.
+
+---
+
+## ⚠️ 3. Desafíos
+
+- **Heterogeneidad territorial:** las condiciones de la ruralidad varían considerablemente entre departamentos en aspectos como conectividad, oferta docente e infraestructura. Esto puede limitar la capacidad de generalización de un único modelo nacional.
+
+- **Variables de contexto incompletas o con no respuesta:** los formularios socioeconómicos que acompañan la prueba presentan datos faltantes. En la base 2020-2, la no respuesta es baja, alrededor del 3 %, y es similar entre las dos zonas.
+
+- **Correlación entre variables predictoras:** variables como estrato, ruralidad y naturaleza del colegio presentan correlación entre sí. Por ello, se requiere analizar cuidadosamente la multicolinealidad y la importancia de las variables para no confundir asociación con causalidad.
+
+- **Volumen de datos:** la base contiene **504.872 registros** para el período 2020-2, por lo que se requiere un procesamiento eficiente.
+
+- **Contexto de pandemia:** los resultados de 2020 corresponden a condiciones excepcionales de escolarización y, por lo tanto, no pueden generalizarse directamente a un año típico.
+
+---
+
+## 💡 4. Entrega de Valor
+
+El proyecto busca ofrecer al **Ministerio de Educación Nacional, al Icfes y a las secretarías de educación departamentales** un modelo que permita identificar los factores que presentan mayor relación con las diferencias de desempeño entre las zonas rurales y urbanas, más allá de la ubicación geográfica.
+
+Esta información puede contribuir a orientar programas relacionados con el acceso a conectividad, la formación docente y la implementación de la jornada única hacia instituciones rurales con mayores dificultades.
+
+Además, los resultados permiten analizar cómo las diferencias en conectividad durante el período de educación remota estuvieron relacionadas con las diferencias de aprendizaje y proporcionan un punto de referencia para estudiar la evolución de la brecha en futuras aplicaciones de las pruebas.
+
+---
+
+## 👥 5. Stakeholders
+
+### **Decisores**
+
+- Ministerio de Educación Nacional.
+- Icfes.
+- Secretarías de educación departamentales.
+- Secretarías de educación municipales.
+
+### **Afectados / beneficiarios**
+
+- Estudiantes de zonas rurales.
+- Familias de zonas rurales.
+- Rectores y docentes de instituciones educativas rurales.
+- Investigadores en política educativa.
+
+---
+
+## 🤖 6. Técnicas que se Utilizarán
+
+El proyecto se desarrolla como un problema de **aprendizaje supervisado**.
+
+### 🔹 Análisis Exploratorio de Datos (EDA)
+
+Se realizará una comparación entre las zonas rurales y urbanas para las cinco áreas evaluadas y el puntaje global.
+
+### 🔹 Modelos de Regresión
+
+Se utilizarán:
+
+- **Regresión Lineal**
+- **Random Forest Regressor**
+
+Estos modelos permitirán estimar el puntaje global a partir de las características de contexto del estudiante, hogar, colegio y territorio.
+
+### 🔹 Modelos de Clasificación
+
+Como modelo complementario se utilizarán:
+
+- **Regresión Logística**
+- **HistGradientBoostingClassifier**
+
+Estos modelos permitirán estimar la probabilidad de presentar un bajo desempeño.
+
+### 🔹 Evaluación
+
+Los modelos serán evaluados mediante validación cruzada y diferentes métricas:
+
+**Regresión:**
+
+- R²
+- RMSE
+- MAE
+
+**Clasificación:**
+
+- Precisión
+- Recall
+- F1-score
+- ROC-AUC
+- PR-AUC
+
+### 🔹 Interpretación
+
+Para interpretar los resultados se utilizarán:
+
+- Importancia de variables.
+- Descomposición **Oaxaca-Blinder**.
+- **Shapley**.
+
+Estas herramientas permitirán analizar la contribución de diferentes factores a la brecha observada.
+
+---
+
+## 📚 7. Fuentes de Datos
+
+| Institución | Base | Uso |
+|---|---|---|
+| **Icfes** | Microdatos de resultados Saber 11, período 2020-2 (DataIcfes) | Base principal con puntajes y variables de contexto por estudiante |
+| **Icfes / MEN** | Resultados nacionales agregados 2020 | Validación externa del promedio nacional |
+| **DANE** | Pobreza multidimensional departamental 2018-2025, por cabeceras y centros poblados y rural disperso (ECV) | Caracterización del contexto territorial de cada colegio |
+
+El promedio nacional utilizado como referencia para la validación externa es de **248 puntos**.
+
+---
+
+## 📊 8. Variables
+
+### 🎯 Variable objetivo (Target)
+
+**Puntaje global Saber 11**, con valores entre 0 y 500, utilizado como variable objetivo para el modelo principal de regresión.
+
+Para el modelo complementario de clasificación se utilizará una **categoría de desempeño bajo / no bajo**, definida a partir del percentil 25.
+
+### 🔹 Variables predictoras (Features)
+
+- Zona del colegio: rural / urbana.
+- Naturaleza del establecimiento: oficial / no oficial.
+- Jornada.
+- Carácter.
+- Género del colegio.
+- Colegio bilingüe.
+- Nivel socioeconómico del colegio.
+- Nivel educativo del padre.
+- Nivel educativo de la madre.
+- Estrato socioeconómico.
+- Índice de bienes del hogar.
+- Hacinamiento.
+- Libros en el hogar.
+- Acceso a internet.
+- Acceso a computador.
+- Número de personas en el hogar.
+- Género del estudiante.
+- Pertenencia étnica.
+- Edad.
+- Horas de trabajo del estudiante.
+- **IPM 2020 del departamento en la zona del colegio (DANE).**
+
+---
+
+## 🔄 9. Ajustes al Planteamiento Original
+
+| Primera entrega | Ajuste | Justificación |
+|---|---|---|
+| Período 2024 | **2020-2** | Es la base de microdatos disponible. |
+| Puntajes por área como predictores | **Se excluyen como predictores** | El puntaje global es una combinación de las áreas, por lo que utilizarlas generaría fuga de información. |
+| Nivel del Sisbén | **Se elimina** | No existe en los microdatos. Se utilizan estrato, índice de bienes y NSE del colegio. |
+| Municipio como variable | **Se sustituye por IPM del DANE** | El municipio presenta 1.111 categorías; el IPM departamento × zona proporciona un contexto territorial interpretable. |
+| XGBoost Classifier | **HistGradientBoostingClassifier** | Permite utilizar la misma familia de *gradient boosting* reduciendo dependencias externas. |
+| Informe Nacional 2024 | **Cifras oficiales 2020 (MEN)** | Permite validar el período analizado. |
+| — | **Oaxaca-Blinder y Shapley** | Permiten cuantificar el aporte de diferentes factores a la brecha. |
+| — | **Exclusión de jornadas sabatina y nocturna** | Corresponden a educación de adultos y representan una población y currículo diferentes. |
+
+---
+
+## 👨‍💻 10. Estructura del Repositorio
+
+```text
+├── README.md
+├── requirements.txt
+├── run_all.py
+│
+├── data/
+│   ├── raw/
+│   ├── interim/
+│   └── processed/
+│
+├── src/
+│   ├── config.py
+│   ├── utils.py
+│   ├── features_modelo.py
+│   ├── p01_carga_datos.py
+│   ├── p02_limpieza.py
+│   ├── p03_integracion.py
+│   ├── p04_features.py
+│   ├── p05_eda.py
+│   ├── p06_preparacion.py
+│   ├── p07_regresion.py
+│   ├── p08_clasificacion.py
+│   ├── p09_interpretacion.py
+│   └── p10_resumen.py
+│
+├── results/
+│   ├── figuras/
+│   ├── tablas/
+│   ├── metricas/
+│   ├── modelos/
+│   ├── resumen_resultados.md
+│   └── interpretacion_economica.md
+│
+└── logs/
