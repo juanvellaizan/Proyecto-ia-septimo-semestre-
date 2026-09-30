@@ -80,6 +80,12 @@ Debido al tamaño de las bases originales, los archivos de datos no se versionan
 | Saber_11°_2020-2_20260928.xlsx | Icfes — DataIcfes, microdatos Saber 11 2020-2 |
 | anex-PMultidimensional-Departamental-2025.xlsx | DANE — Pobreza multidimensional departamental |
 
+### 📁 Carpeta de datos
+
+Los archivos utilizados en el proyecto pueden consultarse y descargarse desde la siguiente carpeta:
+
+👉 [Acceder a la carpeta de datos en Google Drive](https://drive.google.com/drive/u/0/folders/1tfxHj5XB1XwfKu-13S0sf4KXE44_-jhd)
+
 ## 🛠️ 11. Procesamiento de los Datos
 
 El procesamiento del proyecto se organiza inicialmente en dos etapas principales:
