@@ -73,7 +73,7 @@ Durante el desarrollo del proyecto se realizaron ajustes al planteamiento inicia
 
 ## 📂 10. Datos
 
-Debido al tamaño de las bases originales, los archivos de datos no se versionan directamente en GitHub. Los archivos, resultados y codigo de Python utilizados se encuentran disponibles en la carpeta de Google Drive asociada al proyecto.
+Debido al tamaño de las bases originales, los archivos de datos no se versionan directamente en GitHub. Las bases de datos utilizadas se encuentran disponibles en la carpeta de Google Drive asociada al proyecto.
 
 | Archivo | Fuente |
 |---|---|
