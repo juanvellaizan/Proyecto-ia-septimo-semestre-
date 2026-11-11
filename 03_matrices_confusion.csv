@@ -1,0 +1,3 @@
+﻿modelo,verdaderos_negativos,falsos_positivos,falsos_negativos,verdaderos_positivos
+Regresión logística,51852,17093,7158,16111
+Gradient Boosting (HGB),53136,15809,6903,16366

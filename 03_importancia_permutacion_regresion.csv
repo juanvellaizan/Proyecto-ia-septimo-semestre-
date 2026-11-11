@@ -1,0 +1,35 @@
+﻿variable,grupo,importancia,desviacion
+NSE del colegio (pares),Colegio: NSE de los pares,3.6680926330561263,0.03872121213288498
+Edad,Estudiante: características,1.9541634344604855,0.03546480432095138
+IPM dpto.×zona (DANE),Territorio: pobreza y movilidad,1.2359114041981272,0.04358352417259892
+Género,Estudiante: características,0.9515184218482892,0.02499205758570233
+Lectura por gusto ★,Estudiante: trabajo y hábitos,0.8526834540437326,0.05054684372297752
+Situación económica ★,Hogar: alimentación y situación económica,0.6390079566597535,0.06131623782368711
+Horas de trabajo,Estudiante: trabajo y hábitos,0.6299477803096375,0.037880583126524064
+Libros en el hogar,Hogar: nivel socioeconómico,0.5805176127534845,0.06031257010444638
+Índice de alimentación ★,Hogar: alimentación y situación económica,0.527745879891711,0.02510500585008276
+Educación de la madre,Hogar: educación y ocupación de los padres,0.5085553150782687,0.04899497691307165
+Índice de bienes (PCA),Hogar: nivel socioeconómico,0.44485924453478515,0.012367555377391485
+Educación del padre,Hogar: educación y ocupación de los padres,0.41916860704049225,0.035256480421321276
+Internet en el hogar,Hogar: conectividad,0.39680931691122606,0.04031694431452101
+Estrato,Hogar: nivel socioeconómico,0.3925035027880573,0.009068528122703015
+Computador en el hogar,Hogar: conectividad,0.3902902970728401,0.006511462636195735
+Pertenencia étnica,Estudiante: características,0.28613426550858634,0.006370036493321527
+Uso de internet ★,Hogar: conectividad,0.2716977235223392,0.002371725706031607
+Jornada,"Colegio: tipo, jornada y sede",0.25341403383157274,0.009122614527433818
+Hacinamiento,Hogar: nivel socioeconómico,0.22820969983302555,0.014499879167117804
+Naturaleza del colegio,"Colegio: tipo, jornada y sede",0.18499793303736092,0.003320807570112536
+Zona rural,Ruralidad (efecto residual),0.17062325088897742,0.014110382174877922
+Ocupación del padre ★,Hogar: educación y ocupación de los padres,0.16798413266653492,0.0016921717976512874
+Ocupación de la madre ★,Hogar: educación y ocupación de los padres,0.1252225417622436,0.007686458043537846
+Personas en el hogar,Hogar: nivel socioeconómico,0.1222445817039836,0.02320908375934331
+Remuneración del trabajo ★,Estudiante: trabajo y hábitos,0.12107241833218534,0.012071831963513135
+Género del colegio,"Colegio: tipo, jornada y sede",0.07930915870852336,0.0031759480355755577
+Carácter del colegio,"Colegio: tipo, jornada y sede",0.07882834743063682,0.006938728150943283
+Focalizado por Sisbén ★,Hogar: nivel socioeconómico,0.07138198964042175,0.008193058135054802
+Presenta en otro municipio ★,Territorio: pobreza y movilidad,0.03993945327922196,0.01690199295340721
+Colegio bilingüe,"Colegio: tipo, jornada y sede",0.013194541130239656,0.004391633417964084
+Sede secundaria ★,"Colegio: tipo, jornada y sede",0.006954330939324886,0.0015976356716880565
+Calendario ★,"Colegio: tipo, jornada y sede",0.004216749178567625,0.002747722540955471
+Migrante venezolano ★,Estudiante: características,0.002641096525437092,0.0013439829452213798
+Vive en otro municipio ★,Territorio: pobreza y movilidad,0.0024383237572157177,0.000998018647997409

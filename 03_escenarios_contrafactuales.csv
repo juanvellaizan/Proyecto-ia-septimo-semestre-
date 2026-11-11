@@ -1,0 +1,13 @@
+﻿escenario,modelo,cambio_puntaje_rural,pct_brecha_cerrada
+Internet y computador para todos los rurales,Gradient Boosting,4.433467193866562,16.076643044679393
+Internet y computador para todos los rurales,Regresión lineal,6.3832479492059235,23.14693991353668
+Jornada única para rurales en jornada mañana/tarde,Gradient Boosting,0.8129697366067035,2.9479916485305946
+Jornada única para rurales en jornada mañana/tarde,Regresión lineal,1.0189808653091177,3.6950294035323976
+IPM territorial rural igual al urbano del departamento,Gradient Boosting,-0.47651684822432117,-1.7279458578776286
+IPM territorial rural igual al urbano del departamento,Regresión lineal,8.309980157275561,30.133658117897166
+Madre con al menos secundaria completa,Gradient Boosting,0.9638458760499589,3.495098851927552
+Madre con al menos secundaria completa,Regresión lineal,0.8948158967427844,3.244782273914219
+Alimentación al menos en la mediana urbana,Gradient Boosting,1.2263494840127862,4.446989690095295
+Alimentación al menos en la mediana urbana,Regresión lineal,1.506490531106408,5.462837427170584
+Los cinco escenarios combinados,Gradient Boosting,7.027334886294,25.482528590414923
+Los cinco escenarios combinados,Regresión lineal,18.11351539963988,65.68324713605136

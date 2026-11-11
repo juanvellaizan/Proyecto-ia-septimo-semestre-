@@ -1,0 +1,7 @@
+﻿tarea,modelo,version,CV_R2,CV_RMSE,test_R2,test_RMSE,test_ROC_AUC,test_PR_AUC
+Regresión,Regresión lineal,Sin variables nuevas,0.34492105546936264,38.75174876495115,0.3608245268107162,38.88833168582556,,
+Regresión,Regresión lineal,Con variables nuevas,0.376415974035088,37.80889294176355,0.3930950276570775,37.893926575288575,,
+Regresión,Gradient Boosting,Sin variables nuevas,0.3850648785498024,37.54597654247847,0.39664973780475576,37.782789121908955,,
+Regresión,Gradient Boosting,Con variables nuevas,0.4217762777274376,36.40825997850145,0.43435437424969914,36.5831820240886,,
+Clasificación,Gradient Boosting (HGB),Sin variables nuevas,,,,,0.8023593784482441,0.5896293470531626
+Clasificación,Gradient Boosting (HGB),Con variables nuevas,,,,,0.8188305191794603,0.616141212334444

@@ -1,0 +1,102 @@
+﻿variable,VIF
+nse_colegio=NSE 3,8.77053344064263
+nse_colegio=NSE 2,6.9153897539026
+uso_internet=1-3 h,5.44504239671421
+uso_internet=Más de 3 h,5.387400567449026
+uso_internet=30-60 min,4.357607877290413
+missingindicator_personas_hogar,4.280618963847026
+missingindicator_hacinamiento,3.501492369347615
+nse_colegio=NSE 4,3.396822231527588
+ipm_zona,3.123873990973405
+uso_internet=30 min o menos,3.0603076509249116
+situacion_economica=No reporta,3.032672659859424
+ocup_padre=Negocio pequeño o cuenta propia,2.9221808214005898
+trabajo_horas=No reporta,2.853929788735605
+rural,2.827051983734812
+remuneracion=No reporta,2.774229414540314
+ocup_padre=Profesional o directivo,2.5640583238854284
+educ_madre=Profesional completa,2.3803927898358306
+"ocup_padre=Operario, limpieza o construcción",2.3525676360824876
+naturaleza=No oficial,2.146633529545064
+ocup_padre=No reporta,2.1152690546782016
+educ_padre=Profesional completa,2.016727197447833
+ocup_padre=Empleado administrativo o vendedor,1.9968704642356756
+educ_madre=Secundaria completa,1.9906102657065885
+lectura_diaria=30 min o menos,1.919393529721822
+internet=Sí,1.8818550831832088
+lectura_diaria=30-60 min,1.870576061704897
+indice_bienes_pca,1.869775402473309
+estrato=Estrato 3,1.8400983468907783
+ocup_madre=Profesional o directivo,1.7960679363135708
+remuneracion=Efectivo,1.775353611502217
+educ_padre=Secundaria completa,1.753957182254893
+educ_madre=Técnica/tecnológica completa,1.7308290920092924
+computador=Sí,1.7243928599755123
+jornada=Completa,1.6885104096601589
+estrato=Estrato 2,1.6386069669707755
+educ_madre=Posgrado,1.622834866539036
+uso_internet=No reporta,1.5636159693102023
+trabajo_horas=Menos de 10 h,1.5347626958543534
+educ_padre=Posgrado,1.5183004649286629
+educ_madre=Secundaria incompleta,1.4863904604065024
+ocup_padre=Hogar o no trabaja,1.4790287850659207
+computador=No reporta,1.4702510948885819
+educ_padre=No reporta,1.4662102757593622
+lectura_diaria=No reporta,1.46463362583381
+lectura_diaria=1-2 h,1.4633206592510244
+hacinamiento,1.4587386812794894
+libros=No reporta,1.4284944747052915
+libros=26-100,1.425926050132224
+educ_padre=Técnica/tecnológica completa,1.417724538864047
+educ_madre=Superior incompleta,1.4167756680741252
+indice_alimentacion,1.4159700416765473
+estrato=Estrato 4,1.4065365800551135
+personas_hogar,1.3938793545116828
+educ_padre=Secundaria incompleta,1.3892910254810227
+trabajo_horas=11-20 h,1.373017559638066
+bienes_faltante,1.372280434211778
+ocup_madre=Empleado administrativo o vendedor,1.3615033538320986
+focalizado_sisben,1.3171624727546385
+ocup_padre=Pensionado,1.3082481301483062
+caracter=Técnico/Académico,1.3036978651263174
+libros=11-25,1.2998989467905024
+bilingue=No reporta,1.297863118605981
+ocup_madre=Negocio pequeño o cuenta propia,1.2953375981984465
+jornada=Única,1.2882266696497637
+ocup_madre=No reporta,1.2698951813177226
+educ_padre=Superior incompleta,1.2612146230748758
+libros=Más de 100,1.2546039302912209
+educ_madre=No reporta,1.2469090266067
+internet=No reporta,1.2458737854992716
+presenta_otro_mcpio,1.2449346604665943
+trabajo_horas=Más de 30 h,1.2406001442822532
+lectura_diaria=Más de 2 h,1.2281210595243572
+estrato=Estrato 5-6,1.2114617898517757
+"ocup_madre=Operario, limpieza o construcción",1.197523823992519
+trabajo_horas=21-30 h,1.18665254687435
+caracter=No reporta,1.1843016701750901
+etnia=Sí,1.1809071045403536
+missingindicator_indice_alimentacion,1.1706835495746295
+caracter=Técnico,1.1558881607024434
+jornada=Tarde,1.1475975330047299
+ocup_madre=Agricultor o jornalero,1.146200559138428
+genero=M,1.1267539977963723
+estrato=Sin estrato,1.1200183708837341
+etnia=No reporta,1.1132771252320777
+edad,1.113006535327346
+caracter=No aplica,1.1116238175278772
+situacion_economica=Peor,1.111328124977373
+estudia_otro_mcpio,1.1100540974347346
+situacion_economica=Mejor,1.0984530794369494
+estrato=No reporta,1.0946963611305487
+calendario=B,1.0897988609816662
+remuneracion=Especie,1.0847801352619746
+remuneracion=Efectivo y especie,1.0744795928668014
+genero_colegio=Femenino,1.0663625464880713
+genero_colegio=Masculino,1.0415851112171015
+sede_secundaria,1.0383258432206008
+ocup_madre=Pensionado,1.0311270907044654
+bilingue=Sí,1.02416942069328
+calendario=Otro,1.0179770811082207
+migrante,1.0179053639102313
+missingindicator_edad,1.0008302823831554

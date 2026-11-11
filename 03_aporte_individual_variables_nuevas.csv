@@ -1,0 +1,14 @@
+﻿variable,grupo,aumento_RMSE_al_quitarla
+lectura_diaria,Estudiante: trabajo y hábitos,0.3584263690177565
+situacion_economica,Hogar: alimentación y situación económica,0.2957594155110925
+indice_alimentacion,Hogar: alimentación y situación económica,0.09384739065523462
+uso_internet,Hogar: conectividad,0.05679765884216437
+ocup_padre,Hogar: educación y ocupación de los padres,0.04858527452458361
+ocup_madre,Hogar: educación y ocupación de los padres,0.035341511375996504
+remuneracion,Estudiante: trabajo y hábitos,0.015046179972699747
+estudia_otro_mcpio,Territorio: pobreza y movilidad,0.00437438198144946
+sede_secundaria,"Colegio: tipo, jornada y sede",0.004054732635459857
+calendario,"Colegio: tipo, jornada y sede",0.0030937154520032095
+presenta_otro_mcpio,Territorio: pobreza y movilidad,0.0028254560745821777
+focalizado_sisben,Hogar: nivel socioeconómico,0.0024475844651874468
+migrante,Estudiante: características,-0.00017370361511837018
